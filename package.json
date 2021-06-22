@@ -1,0 +1,25 @@
+{
+  "name": "Web_PP_10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh034/Web_PP_10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishabh034/Web_PP_10/issues"
+  },
+  "homepage": "https://github.com/Rishabh034/Web_PP_10#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "jspdf": "^2.3.1",
+    "request": "^2.88.2"
+  }
+}

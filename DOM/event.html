@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li> <button class="h2">+</button></li>
+        <li> <button class="h3">0</button></li>
+        <li> <button class="h4">-</button></li>
+    </ul>
+    <script>
+        let ptag = document.querySelector(".h2");
+        let mitag = document.querySelector(".h3");
+        let otag = document.querySelector(".h4");
+console.log(mitag)
+        ptag.addEventListener("click",function(){
+             var number = Number(mitag.innerText);
+             number++;
+             mitag.innerText = number;
+            console.log("hh")
+        })
+        otag.addEventListener("click",function(){
+             var number = Number(mitag.innerText);
+             number=number-1;
+             mitag.innerText = number;
+        })
+
+
+    </script>
+    <!-- <script>
+        let x = document.querySelector(".h2")
+        x.addEventListener("click",function(){
+            console.log("hh")
+        })
+    </script> -->
+
+</body>
+
+</html>
